@@ -15,12 +15,13 @@ const (
 
 // Errors
 const (
-	ErrorLoadingEnvFiles         = "ERROR_LOADING_ENV_FILES"
-	ErrorParsingBodyToJSON       = "ERROR_PARSING_BODY_TO_JSON"
-	ErrorKeyNotFoundInRedis      = "ERROR_KEY_NOT_FOUND_IN_REDIS"
-	ErrorConnectingToRedis       = "ERROR_CONNECTING_TO_REDIS"
-	ErrorInvalidUrl              = "ERROR_INVALID_URL"
-	ErrorSelfDomainLoopPrevented = "ERROR_SELF_DOMAIN_LOOP_PREVENTED"
+	ErrorLoadingEnvFiles          = "ERROR_LOADING_ENV_FILES"
+	ErrorParsingBodyToJSON        = "ERROR_PARSING_BODY_TO_JSON"
+	ErrorKeyNotFoundInRedis       = "ERROR_KEY_NOT_FOUND_IN_REDIS"
+	ErrorConnectingToRedis        = "ERROR_CONNECTING_TO_REDIS"
+	ErrorInvalidUrl               = "ERROR_INVALID_URL"
+	ErrorSelfDomainLoopPrevented  = "ERROR_SELF_DOMAIN_LOOP_PREVENTED"
+	ErrorCustomShortAlreadyExists = "ERROR_CUSTOM_SHORT_ALREADY_EXISTS"
 )
 
 // Fatal Errors
